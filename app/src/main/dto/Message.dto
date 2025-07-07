@@ -1,0 +1,21 @@
+export cn.enaium.chat.model.entity.Message
+    -> package cn.enaium.chat.model.entity.dto
+
+input MessageInput {
+    content
+    me
+    contact {
+        address
+    }
+}
+
+MessageView {
+    id
+    content
+    me
+    createdTime
+    contact {
+        address
+        remark
+    }
+}

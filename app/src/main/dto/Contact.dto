@@ -1,0 +1,16 @@
+export cn.enaium.chat.model.entity.Contact
+    -> package cn.enaium.chat.model.entity.dto
+
+input ContactInput {
+    id
+    address
+    remark
+}
+
+ContactView {
+    id
+    address
+    remark
+    createdTime
+    modifiedTime
+}
